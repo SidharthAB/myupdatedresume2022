@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sidharth</title>
+  </head>
+  <body>
+    <div class="scrollToTop">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar defaultMargin">
+      <div class="brand__container">
+        <div class="brand">
+          <h2><span></span></h2>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          
+          
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <button><i class="far fa-id-card"></i> <a href="https://www.linkedin.com/in/sidharth-a-b-06a10b198">Contact ME</a></button>
+        </ul>
+      </div>
+    </nav>
+    <div class="responsive__navbar">
+      <div class="brand">
+        <h2><span></span></h2>
+      </div>
+      <div class="links">
+        <ul>
+          <li class="nav__link"><a href="#home">Home</a></li>
+          <li class="nav__link"><a href="#skills">Skills</a></li>
+          <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
+          
+          <ul>
+            <li class="nav__link"><i class="fas fa-search"></i></li>
+            <li class="nav__link"><i class="fab fa-twitter"></i></li>
+            <li class="nav__link"><i class="fab fa-instagram"></i></li>
+          </ul>
+          <button class="nav__link" onclick="">
+            <i class="far fa-id-card"></i> Contact ME
+          </button>
+        </ul>
+      </div>
+    </div>
+    <section class="hero defaultMargin" id="home">
+      <div class="content">
+        <div class="title">
+          <h1>Hello Guys!</h1>
+          <h1>I'm Sidharth.</h1>
+        </div>
+        <button><i class="fas fa-coffee"></i> Get Started</button>
+      </div>
+      <div class="image">
+        <img src="./assets/hero.jpg" alt="nandu" />
+      </div>
+    </section>
+    <div class="spring right" id="spring1">
+      <div class="coil"></div>
+      <div class="bar gradient"></div>
+    </div>
+    <section class="about">
+      <div class="title__container">
+        <h2>Education</h2>
+        <p>
+          Get to know a little of my history and the road I traveled that took
+          me to the level i am today.
+        </p>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="assets/institutional.jpg" alt="" />
+        </div>
+        <div class="education">
+          
+          <h2>COLLEGE</h2>
+          <h3>
+            Marian Engineering College<br>
+            Computer Science<br> 
+            3rd Year<br>
+          <h3>
+      <h2>SCHOOL </h2>
+          <h3>
+            MGM Model School(CBSE) <br>
+            Computer Science <br>
+          </h3>
+          <h2>Languages and tools </h2>
+          <h3>
+            1. Python<br>
+            2. Java <br>
+            3. C <br>
+            4. C++ <br>
+            5. Css <br>
+            6. html <br>
+            7. js <br>
+          </h3>
+        </div>
+      </div>
+    </section>
+    <div class="spring" id="springL1">
+      <div class="coil"></div>
+      <div class="bar gradient"></div>
+    </div>
+    <section class="skills defaultMargin" id="skills">
+      <div class="title__container">
+        <h2>Main Skills</h2>
+        <p>
+          Some of my skills are
+        </p>
+      </div>
+      <div class="content">
+        <div class="skill">
+          <div class="container">
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="number">42%</div>
+              <div class="circle">
+                <div class="bar left">
+                  <div class="progress"></div>
+                </div>
+                <div class="bar right">
+                  <div class="progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3>Front End Development</h3>
+        </div>
+        
+        <div class="skill">
+          <div class="container three">
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="number">34%</div>
+              <div class="circle">
+                <div class="bar left">
+                  <div class="progress"></div>
+                </div>
+                <div class="bar right">
+                  <div class="progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3>Machine Learning</h3>
+        </div>
+        
+      </div>
+    </section>
+    <div class="spring right" id="spring2">
+      <div class="coil"></div>
+      <div class="bar gradient"></div>
+    </div>
+    <section class="portfolio defaultMargin" id="portfolio">
+      <div class="title__container">
+        <h2>My Projects</h2>
+        <p>The projects that i have build</p>
+      </div>
+      <div class="container">
+        <div class="design">
+          <div class="background"></div>
+          <div class="portfolio__container">
+            <h3>Project 1</h3>
+            <p>This is the frontend for a dog tinder</p>
+            <div class="image">
+              <a href="https://sidharthab.github.io/tindog/"> 
+              <img src="./assets/portfolio1.jpeg" alt="sidharthproject" />
+            </a>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+    <div class="spring" id="springL2">
+      <div class="coil"></div>
+      <div class="bar gradient"></div>
+    </div>
+    
+    <section class="contact defaultMargin">
+      <div class="left">
+        <div class="title">
+          <div class="bar"></div>
+          <h3>Let's Talk?</h3>
+          <p>
+            Don't wait until tommorow.
+            <hr>
+            
+          </p>
+        </div>
+        <div class="form">
+          
+          <button type="submit"><a href="https://www.linkedin.com/in/sidharth-a-b-06a10b198">Contact</a></button>
+        </div>
+      </div>
+      
+    </section>
+    <footer class="footer">
+      <div class="section">
+        <div class="brand">
+          <h2>Resume</h2>
+        </div>
+        <p>
+          Hai, this is my resume and my contact details are given
+          below
+        </p>
+        <ul class="social">
+          
+          <li><a href="https://www.instagram.com/siidhaarth._/"><i class="fab fa-instagram"></i></li> <!--- Like below add the link-->
+          
+          <li><a href="https://www.linkedin.com/in/sidharth-a-b-06a10b198"><i class="fab fa-linkedin-in"></a></i></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3 class="title">Get in Touch</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i><span>+91 8078878815</span></li>
+          <li>
+            <i class="far fa-envelope-open"></i
+            ><span>absidharth8282@gmail.com</span>
+          </li>
+          <li><i class="far fa-building"></i><span>Sreelakam Kurakkanni Varkala Trivandrum</span></li>
+        </ul>
+        <button><a href="https://www.linkedin.com/in/sidharth-a-b-06a10b198">Send a Message</a></button>
+      </div>
+      <div class="section">
+        
+      </div>
+      <div class="section">
+      </div>
+    </footer>
+    <div class="lower__footer">
+      <span>Hey hope we will be in touch</span>
+      <span>&copy; 2022 all rights reserved.</span>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/animation.js"></script>
+  </body>
+</html>
